@@ -1,11 +1,16 @@
-<div class="container-md m-3">
-<h2>Edit task</h2>
-<%= render 'form', task: @task %>
-<hr>
-<div class="d-flex align-items-center">
-<i class="fas fa-undo-alt pr-1 text-primary"></i>
-<%= link_to 'go back', tasks_path %>
+<div class="container-fluid bg-light">
+  <div class="row vh-100">
+    <div class="col-md-6 mx-auto my-auto p-3 bg-white border border-white rounded-lg shadow">
+      <h2>Edit task</h2>
+        <%= render 'form', task: @task %>
+      <hr>
+      <%= link_to tasks_path do %>
+        <div class="d-flex align-items-center ">
+          <i class="fas fa-undo-alt pr-2 text-primary"></i>
+          <span>Go back</span>
+        </div>
+      <% end %>
+    </div>
+  </div>
 </div>
-</div>
-
 
