@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# RAILS TASK MANAGER ![alt text](https://raw.githubusercontent.com/agukly/rails-task-manager/master/app/assets/images/tick.gif?raw=true)
 
-Things you may want to cover:
+## Background & Objectives
 
-* Ruby version
+- Get familiar with rails(routing,controllers & views)
+- Learn how to separate responsibilities of your program into several sub-methods
+- Style your app only using Boostrap v4.5.0
 
-* System dependencies
+### Getting Started
 
-* Configuration
+![alt text](https://github.com/agukly/rails-task-manager/blob/master/app/assets/images/sample.png?raw=true)
 
-* Database creation
+- As a user, I can list tasks
+- As a user, I can view the details of a task
+- As a user, I can add a new task
+- As a user, I can edit a task (mark as completed / update title & details)
+- As a user, I can remove a task
 
-* Database initialization
+### Installing
+Clone the project to your local machine, run the local server `http://localhost:3000/tasks`
 
-* How to run the test suite
+`git@github.com:agukly/rails-task-manager.git`
 
-* Services (job queues, cache servers, search engines, etc.)
+### Built With
 
-* Deployment instructions
-
-* ...
+- Rails version: 5.2.4.1
+- Ruby version: 2.6.5 (x86_64-darwin19)
+- HTML
+- Bootstrap v4.5.0 only, no CSS
+- webpack
